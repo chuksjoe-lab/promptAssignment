@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    
+   
+    <script type= text/javascript charset= utf-8>
+     //to calculate the time it will take to get to mars
+        var distance= 151920000;
+        var velocity= 1000;
+        var timeofflight= distance/velocity;
+        console.log(timeofflight);
+        document.write("time it takes to get to mars = distance/velocity =151920000/1000 ="+""+timeofflight+"hours");
+        
+//"to find the number of hours the astronauts will spend on mars"
+        var revolution= 687;
+        var timespent= revolution * 24;
+        console.log (timespent);
+        document.write("time spent on mars= revolution * 24 hours ="+""+timespent+"hours");
+      
+//total time spent on the trip
+        var totaltime= timeofflight + timespent;
+        document.write("the total time spent on the trip ="+""+totaltime+"hours" );
+        
+        console.log(totaltime);
+//if one litre of oxygen lasts for 12 hours therefore...
+        var litres= totaltime / 12;
+        console.log(litres);
+        document.write("number of litres for each astronaut="+""+litres+"litres");
+//assuming there are 5 astronauts, 
+        var totallitres= totaltime * 5;
+        console.log(totallitres);
+    document.write("number of litres for five astronauts="+""+totallitres+"litres")
+     </script>  
+    </body>
+</html>
